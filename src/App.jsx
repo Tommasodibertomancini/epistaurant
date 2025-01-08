@@ -1,15 +1,18 @@
+import RestaurantNavbar from './components/RestaurantNavbar'
+import HomeContent from './components/HomeContent'
+
+// tolgo questo import CSS perchè utilizzeremo bootstrap
 // import './App.css'
-// importiamo il CSS di boostrap da node_modules
-import 'bootstrap/dist/css/bootstrap.min.css';
-import RestaurantNavbar from './components/RestaurantNavbar';
+// importiamo una volta per tutte il CSS di bootstrap, da node_modules
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
-
   return (
-   <>
-   <RestaurantNavbar />
-   </>
-  );
+    <>
+      <RestaurantNavbar />
+      <HomeContent />
+    </>
+  )
 }
 
-export default App;
+export default App
